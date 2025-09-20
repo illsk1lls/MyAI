@@ -88,7 +88,7 @@ Edit the variables at the top of the script:
 4. **Server Launch**: Starts vLLM server in WSL with selected GPU.
 5. **Client Interaction**: Chat via the GUI, with conversation history preserved.
 
-If the model download is interrupted, set `$forceFreshModelDownload = $true` to resume.
+If the model download is interrupted, set `$forceFreshModelDownload = $true` to resume incomplete partials, or to re-download complete files.
 
 ## Troubleshooting
 

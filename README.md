@@ -109,4 +109,4 @@ Contributions welcome! Fork the repo, make changes, and submit a pull request. F
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT License.

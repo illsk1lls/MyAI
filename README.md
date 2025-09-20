@@ -1,5 +1,16 @@
 # MyAI vLLM Model Launcher
 
+### Screenshots
+
+#### Install Panel
+![Install Panel](screenshots/install.png)
+
+#### Launch Panel
+![Launch Panel](screenshots/launch.png)
+
+#### Hybrid Mode (Server + Client)
+![Hybrid Mode](screenshots/hybrid.png)
+
 A user-friendly PowerShell script for launching and interacting with AI models using [vLLM](https://github.com/vllm-project/vllm) on Windows. It supports a hybrid client-server mode (running the server in WSL with CUDA acceleration) or client-only mode (connecting to a remote vLLM server). The script features a modern WPF-based GUI with automatic dependency installation, GPU selection, and a chat interface for model interactions.
 
 The script handles WSL setup, CUDA toolkit installation, and model downloading/caching from Hugging Face. Default models are Llama variants, but you can customize them.
@@ -65,20 +76,6 @@ Edit the variables at the top of the script:
 [string]$rootPassword = "pass"  # WSL root password (change for security)
 [int]$requiredVRAMGB = 8  # Minimum GPU VRAM
 ```
-
-### Screenshots
-
-#### Install Panel
-![Install Panel](screenshots/install.png)
-
-#### Launch Panel
-![Launch Panel](screenshots/launch.png)
-
-#### Hybrid Mode (Server + Client)
-![Hybrid Mode](screenshots/hybrid.png)
-
-#### Client-Only Mode
-![Client-Only Mode](screenshots/client-only.png)
 
 ## How It Works
 

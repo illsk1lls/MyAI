@@ -1,13 +1,5 @@
 # MyAI vLLM Model Launcher
 
-### Screenshots
-
-#### Install Panel
-![Install Panel](screenshots/install.png)
-
-#### Launch Panel
-![Launch Panel](screenshots/launch.png)
-
 #### Hybrid Mode (Server + Client)
 ![Hybrid Mode](screenshots/hybrid.png)
 
@@ -76,6 +68,17 @@ Edit the variables at the top of the script:
 [string]$rootPassword = "pass"  # WSL root password (change for security)
 [int]$requiredVRAMGB = 8  # Minimum GPU VRAM
 ```
+
+### Screenshots
+
+#### Install Panel
+![Install Panel](screenshots/install.png)
+
+#### Launch Panel
+![Launch Panel](screenshots/launch.png)
+
+#### Client-Only Mode
+![Client-Only Mode](screenshots/client-only.png)
 
 ## How It Works
 

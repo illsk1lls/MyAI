@@ -71,13 +71,13 @@ Edit the variables at the top of the script:
 
 ### Screenshots
 
-#### Install Panel
+#### Install
 ![Install Panel](screenshots/install.png)
 
-#### Launch Panel
+#### Launch w/GPU selection
 ![Launch Panel](screenshots/launch.png)
 
-#### Client-Only Mode
+#### Client-Only Mode to connect to server remotely
 ![Client-Only Mode](screenshots/client-only.png)
 
 ## How It Works

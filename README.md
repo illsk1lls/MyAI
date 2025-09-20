@@ -17,7 +17,7 @@ The script handles WSL setup, CUDA toolkit installation, and model downloading/c
 - **Client-Only Mode**: Connect to a remote vLLM server for chatting with models.
 - **Automatic Setup**: Installs WSL, Ubuntu, CUDA, vLLM, and dependencies with one click if needed.
 - **GPU Support**: Detects and selects NVIDIA GPUs (requires at least 8GB VRAM for minimum recommended models). Supports FlashInfer for compatible GPUs (RTX 30xx/40xx series and select server GPUs).
-- **Model Options**: Auto-selects default models based on VRAM (e.g., Llama-3.2-3B for 8GB, Meta-Llama-3.1-8B for 12GB+). Optional quantization for efficiency.
+- **Model Options**: Auto-selects default models based on VRAM (e.g., Llama-3.2-3B for 8GB, Meta-Llama-3.1-8B for 12GB+). Optional quantization for efficiency. Change this to anything you want.
 - **Chat Interface**: Conversation history with basic syntax highlighting for code blocks.
 - **Networking**: Local-only or network-exposed server (with port redirection and firewall rule).
 - **Customizable**: Edit script variables for server address, port, model, temperature, etc.

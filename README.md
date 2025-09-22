@@ -82,7 +82,7 @@ Edit the variables at the top of the script:
 
 ## How It Works
 
-1. **Detection**: Checks for admin rights, NVIDIA GPU, and VRAM.
+1. **Pre-Launch**: Checks for admin rights, NVIDIA GPU, and VRAM amount
 2. **Setup**: Installs WSL2, Ubuntu 24.04, CUDA 12.8, vLLM, and dependencies if needed.
 3. **Model Loading**: Downloads/caches models from Hugging Face (supports offline reuse).
 4. **Server Launch**: Starts vLLM server in WSL with selected GPU.
